@@ -1,0 +1,14 @@
+Starting virtual environemnt:
+    pip install pipenv
+    pipenv shell
+
+nano requirements.txt {to open and write in nano editor}
+Added following 2 lines in requirments.txt:
+    Flask == 2.0.1
+    Flask-Cors == 3.0.10
+
+To install requirements:
+    pipenv install -r requirments.txt
+
+to create file with touch command
+    touch main.py

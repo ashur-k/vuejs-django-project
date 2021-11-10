@@ -1,0 +1,55 @@
+Globally installing Vue
+    sudo npm install -g @vue/cli
+    and give password
+    npm install --save-dev eslint-plugin-vue
+        if we dont' install this es-lint with vuew.js is complicated
+
+To create vue project we need to run below command  
+    vue create frontned
+
+    cd frontned
+    npm run serve
+
+    first option:
+        manually select features
+    
+    second option:
+        Select follwoing with spacebar and enter
+        choose Vue version
+        Babel
+        Router
+        Linter / Formatter
+    
+    third option:
+        choosing version 2.x
+
+    fourth option use history mode router:
+        yes: y
+    
+    fifth option:
+        pick a linter / formatter config:
+            eslint + prettier
+    sixth option: 
+        Pick additional lint features"
+        Lint on save
+    
+    sevent option:
+        Where do you prefer placing config for babel, ESlint, etc.?
+        selected in package.json
+    
+    eight option save these setting for future project  
+        no
+
+
+Packages Isntall:
+    
+    npm install axios
+    npm install bootstrap@4.6.0 --save
+    npm install bootstrap-vue@2.21.2 --save
+
+
+Curl command to add data:
+
+curl -X POST http://localhost:5000/games -d \ 
+    '{"title": "Gor of war", "genre": "action", "played": "true"}' \
+    -H 'Content-Type: application/json'
